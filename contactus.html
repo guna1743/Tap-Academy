@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>CONTACT US</title>
+        <style>
+            h1{
+                color:rgb(255, 0, 128);
+            }
+            p,pre,h2{
+                color:blueviolet;
+            }
+            .footer{
+    height:15%;
+    width:100%;
+    background-color:lightgreen;
+    display: flex;
+    margin:0;
+    position:absolute;
+    left:0;
+    font-size: 25px;
+    font-family: 'Handlee', cursive;
+}
+            .menu-bar
+              {
+             background:lightgreen;
+             text-align: center;
+            
+             }
+            .menu-bar ul
+            {
+             display: inline-flex;
+             list-style: none;
+             color:#fff;
+            }
+           .menu-bar ul li
+            {
+             width:150px;
+             margin: 1px;
+             padding: 15px;
+           }
+          .menu-bar ul li a
+          {
+            text-decoration: none;
+             color:#fff;
+             }
+         .active, .menu-bar ul li:hover
+          {
+             background:black;
+            }
+         .sub-menu-1{
+               display: none;
+            }
+         .menu-bar ul li:hover .sub-menu-1
+         {
+           display:block;
+            position:absolute;
+          background:black;
+           margin-top: 10px;
+            margin-left:-15px;
+         }
+        .menu-bar ul li:hover .sub-menu-1 ul
+        {
+           display: block;
+            margin: 10px;
+           }
+       .menu-bar ul li:hover .sub-menu-1 ul li
+       {
+           width: 150px;
+           padding: 10px;
+           border-bottom: 1px dotted #fff;
+           background: transparent;
+          border-radius: 0;
+          text-align: left;
+         }
+         .menu-bar ul li:hover .sub-menu-1 ul li:last-child
+          {
+            border-bottom: none;
+          }
+         .menu-bar ul li:hover .sub-menu-1 ul li a:hover
+           {
+               color: #b2ff0b;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div class="menu-bar">
+            <img src="tap academy.png" alt="tap academy" width="150"  height="80" left=10px style="float:left;">
+            <ul> 
+              <li> <a href="#">OUR PROGRAMS▼</a>
+                <div class="sub-menu-1">
+                <ul>
+                    <li><a href="tappython.html">PYTHON FOR DATA SCIENCE</a></li> 
+                    <li><a href="tapjava.html">JAVA</a></li>  
+                </ul>
+                </div></li>   
+                <li> <a href="aboutus.html">ABOUT US</a></li>
+                <li> <a href="contactus.html">CONTACT US</a></li>
+            </ul>
+        </div>
+    <br>
+        <h1>Get In Touch</h1>
+        <div style="float: left;margin-right: 70px;text-align:center;">
+        <form action="/action_page.php" autocomplete="off">
+            <input type="text" id="fname" name="fname" placeholder="Name"  style="font-size:25px;" required>
+            <input type="email" id="email" name="email"  placeholder="Email" style="font-size:25px;" required><br><br>
+            <input type="text" id="phone" name="phone" placeholder="Phone"  style="font-size:25px;" required>
+            <input type="text" id="company" name="phone" placeholder="Company"  style="font-size:25px;" required><br><br>
+            <textarea cols=90 rows=5 style="font-size:12px;" placeholder="Message" required></textarea><br><br>
+            <input type="submit" value="SEND MESSAGE"  style="font-size:25px;background-color: olivedrab;">
+          </form>
+        </div>
+        <div>
+            <img src="calll.png" width="50" height="30">
+            <h2>+91 9844441203</h2>
+            <p>available from 10:00 – 19:00</p>    
+            <pre>        
+#30, 12th Main, 1st Stage Rajajinagar,
+Bengaluru – 560 010
+            </pre>
+            <h2>info@thetapacademy.com</h2>
+        </div>
+        <br>
+        <h2>Useful Links</h2>
+        <section class="footer">
+        <div>
+        <a  style="margin-left: 30px;" href="aboutus.html">About Us</a>
+        <a  style="margin-left: 30px;"href="contactus.html">Contact us</a>
+        <a  style="margin-left: 30px;"href="https://thetapacademy.com/privacy-policy/">Privacy Policy</a>
+        <a style="margin-left: 30px;" href="https://thetapacademy.com/terms-and-conditions/">Terms and Conditions</a>
+        <a style="margin-left: 30px;"href="https://thetapacademy.com/refund-cancellation/">Refunds/Cancellations</a>
+        <p style="color:black;font-size:20px;margin-left:50%;" >Copyright © 2021 | Tap Academy</p>
+        </div>    
+        </section>
+    </body>
+</html>
